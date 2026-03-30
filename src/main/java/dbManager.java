@@ -157,12 +157,10 @@ public class dbManager {
     public List<String> getBookingHistory(String customerEmail) throws SQLException {
         List<String> bookingHistory = new ArrayList<>();
 
-        String historySQL = """
-                SELECT customer_history
-                FROM Booking_history
-                WHERE customer_email = ?
-                ORDER BY booking_history_id
-                """;
+        String historySQL = "SELECT customer_history " +
+                           "FROM Booking_history " +
+                           "WHERE customer_email = ? " +
+                           "ORDER BY booking_history_id";
 
         try (Connection conn = getConnection();
              PreparedStatement stmt = conn.prepareStatement(historySQL)) {
@@ -181,13 +179,11 @@ public class dbManager {
     public List<Customer> getCustomers() throws SQLException {
         List<Customer> customers = new ArrayList<>();
 
-        String customerSQL = """
-                SELECT u.customer_email, u.username, u.customer_password, u.phone_number, u.customer_role,
-                c.first_name, c.last_name, c.promotion, c.is_guest
-                FROM User_ u
-                JOIN Customer c ON u.username = c.username
-                WHERE u.customer_role = 'Customer'
-                """;
+        String customerSQL = "SELECT u.customer_email, u.username, u.customer_password, u.phone_number, u.customer_role, " +
+                             "c.first_name, c.last_name, c.promotion, c.is_guest " +
+                             "FROM User_ u " +
+                             "JOIN Customer c ON u.username = c.username " +
+                             "WHERE u.customer_role = 'Customer'";
 
         try (Connection conn = getConnection();
              PreparedStatement stmt = conn.prepareStatement(customerSQL)) {
@@ -223,13 +219,10 @@ public class dbManager {
     public List<FlightAgent> getFlightAgents() throws SQLException {
         List<FlightAgent> agents = new ArrayList<>();
 
-        String sql = """
-        
-                SELECT u.customer_email, u.username, u.customer_password, u.phone_number, 
-               u.customer_role, u.employee_id, u.airline
-        FROM User_ u
-        WHERE u.customer_role = 'FlightAgent'
-        """;
+        String sql = "SELECT u.customer_email, u.username, u.customer_password, u.phone_number, " +
+                     "u.customer_role, u.employee_id, u.airline " +
+                     "FROM User_ u " +
+                     "WHERE u.customer_role = 'FlightAgent'";
 
         try (Connection conn = getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql);
@@ -254,17 +247,10 @@ public class dbManager {
     public List<SystemAdministrator> getSystemAdministrators() throws SQLException {
         List<SystemAdministrator> admins = new ArrayList<>();
 
-        String sql =
-                """
-        SELECT u.customer_email, u.username, u.customer_password, u.
-                phone_number, 
-               u.customer_role, u.
-                employee_id, u.
-                airline
-        FROM User_ u
-        WHERE u.
-                customer_role = 'SystemAdministrator'
-        """;
+        String sql = "SELECT u.customer_email, u.username, u.customer_password, u.phone_number, " +
+                     "u.customer_role, u.employee_id, u.airline " +
+                     "FROM User_ u " +
+                     "WHERE u.customer_role = 'SystemAdministrator'";
 
         try (Connection conn = getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql);
@@ -285,13 +271,11 @@ public class dbManager {
 
 
     public Customer getCustomerByEmail(String email) throws SQLException {
-        String customerEmailSQL = """
-                SELECT u.customer_email, u.username, u.customer_password, u.phone_number, u.customer_role,
-                c.first_name, c.last_name, c.promotion, c.is_guest
-                FROM User_ u
-                JOIN Customer c ON u.username = c.username
-                WHERE u.customer_email = ?
-                """;
+        String customerEmailSQL = "SELECT u.customer_email, u.username, u.customer_password, u.phone_number, u.customer_role, " +
+                                  "c.first_name, c.last_name, c.promotion, c.is_guest " +
+                                  "FROM User_ u " +
+                                  "JOIN Customer c ON u.username = c.username " +
+                                  "WHERE u.customer_email = ?";
         try (Connection conn = getConnection();
              PreparedStatement stmt = conn.prepareStatement(customerEmailSQL)) {
             stmt.setString(1, email);

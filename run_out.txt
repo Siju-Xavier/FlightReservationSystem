@@ -1,0 +1,1050 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.flightmanager:FlightReservationSystem >--------------
+[INFO] Building FlightReservationSystem 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/javalin/javalin/4.6.8/javalin-4.6.8.pom
+Progress (1): 1.8 kB
+Progress (1): 5.9 kB
+Progress (1): 7.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/javalin/javalin/4.6.8/javalin-4.6.8.pom (7.0 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/javalin/javalin-parent/4.6.8/javalin-parent-4.6.8.pom
+Progress (1): 1.2 kB
+Progress (1): 3.1 kB
+Progress (1): 4.3 kB
+Progress (1): 7.6 kB
+Progress (1): 14 kB 
+Progress (1): 18 kB
+Progress (1): 22 kB
+Progress (1): 28 kB
+Progress (1): 32 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/io/javalin/javalin-parent/4.6.8/javalin-parent-4.6.8.pom (32 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.pom
+Progress (1): 1.5 kB
+Progress (1): 3.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.pom (3.4 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.51.v20230217/jetty-project-9.4.51.v20230217.pom
+Progress (1): 956 B
+Progress (1): 2.2 kB
+Progress (1): 4.2 kB
+Progress (1): 6.5 kB
+Progress (1): 8.2 kB
+Progress (1): 10 kB 
+Progress (1): 13 kB
+Progress (1): 15 kB
+Progress (1): 18 kB
+Progress (1): 21 kB
+Progress (1): 24 kB
+Progress (1): 28 kB
+Progress (1): 31 kB
+Progress (1): 33 kB
+Progress (1): 37 kB
+Progress (1): 43 kB
+Progress (1): 47 kB
+Progress (1): 51 kB
+Progress (1): 55 kB
+Progress (1): 59 kB
+Progress (1): 62 kB
+Progress (1): 66 kB
+Progress (1): 69 kB
+Progress (1): 72 kB
+Progress (1): 72 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.51.v20230217/jetty-project-9.4.51.v20230217.pom (72 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.16.1/testcontainers-bom-1.16.1.pom
+Progress (1): 1.2 kB
+Progress (1): 7.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.16.1/testcontainers-bom-1.16.1.pom (7.2 kB at 139 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+Progress (1): 701 B
+Progress (1): 1.6 kB
+Progress (1): 3.1 kB
+Progress (1): 5.2 kB
+Progress (1): 7.0 kB
+Progress (1): 10 kB 
+Progress (1): 13 kB
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom (14 kB at 211 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+Progress (1): 838 B
+Progress (1): 1.9 kB
+Progress (1): 4.0 kB
+Progress (1): 4.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom (4.8 kB at 96 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.pom
+Progress (1): 1.5 kB
+Progress (1): 3.2 kB
+Progress (1): 4.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.pom (4.0 kB at 72 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.pom
+Progress (1): 1.2 kB
+Progress (1): 2.5 kB
+Progress (1): 4.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.pom (4.0 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.pom (1.2 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.pom
+Progress (1): 1.2 kB
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.pom (3.2 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.pom
+Progress (1): 1.1 kB
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.pom (1.7 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.pom
+Progress (1): 1.3 kB
+Progress (1): 2.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.pom (2.3 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.pom
+Progress (1): 1.2 kB
+Progress (1): 2.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.pom (2.1 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.51.v20230217/jetty-util-ajax-9.4.51.v20230217.pom
+Progress (1): 1.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.51.v20230217/jetty-util-ajax-9.4.51.v20230217.pom (1.3 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.51.v20230217/websocket-server-9.4.51.v20230217.pom
+Progress (1): 1.1 kB
+Progress (1): 4.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.51.v20230217/websocket-server-9.4.51.v20230217.pom (4.1 kB at 102 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.4.51.v20230217/websocket-parent-9.4.51.v20230217.pom
+Progress (1): 1.3 kB
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.4.51.v20230217/websocket-parent-9.4.51.v20230217.pom (1.4 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.51.v20230217/websocket-common-9.4.51.v20230217.pom
+Progress (1): 1.9 kB
+Progress (1): 3.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.51.v20230217/websocket-common-9.4.51.v20230217.pom (3.6 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.51.v20230217/websocket-api-9.4.51.v20230217.pom
+Progress (1): 1.1 kB
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.51.v20230217/websocket-api-9.4.51.v20230217.pom (2.5 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.51.v20230217/websocket-client-9.4.51.v20230217.pom
+Progress (1): 2.2 kB
+Progress (1): 4.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.51.v20230217/websocket-client-9.4.51.v20230217.pom (4.6 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.51.v20230217/jetty-client-9.4.51.v20230217.pom
+Progress (1): 1.2 kB
+Progress (1): 4.9 kB
+Progress (1): 5.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.51.v20230217/jetty-client-9.4.51.v20230217.pom (5.1 kB at 89 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.51.v20230217/websocket-servlet-9.4.51.v20230217.pom
+Progress (1): 1.2 kB
+Progress (1): 2.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.51.v20230217/websocket-servlet-9.4.51.v20230217.pom (2.2 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.32/kotlin-stdlib-jdk8-1.5.32.pom
+Progress (1): 1.3 kB
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.32/kotlin-stdlib-jdk8-1.5.32.pom (1.6 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.32/kotlin-stdlib-1.5.32.pom
+Progress (1): 1.3 kB
+Progress (1): 1.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.32/kotlin-stdlib-1.5.32.pom (1.6 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.32/kotlin-stdlib-common-1.5.32.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.32/kotlin-stdlib-common-1.5.32.pom (1.2 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.32/kotlin-stdlib-jdk7-1.5.32.pom
+Progress (1): 1.3 kB
+Progress (1): 1.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.32/kotlin-stdlib-jdk7-1.5.32.pom (1.4 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/javalin/javalin/4.6.8/javalin-4.6.8.jar
+Progress (1): 4.2/584 kB
+Progress (1): 8.2/584 kB
+Progress (1): 12/584 kB 
+Progress (1): 16/584 kB
+Progress (1): 21/584 kB
+Progress (1): 25/584 kB
+Progress (1): 29/584 kB
+Progress (1): 33/584 kB
+Progress (1): 38/584 kB
+Progress (1): 42/584 kB
+Progress (1): 46/584 kB
+Progress (1): 49/584 kB
+Progress (1): 66/584 kB
+Progress (1): 82/584 kB
+Progress (1): 98/584 kB
+Progress (1): 115/584 kB
+Progress (1): 131/584 kB
+Progress (1): 147/584 kB
+Progress (1): 164/584 kB
+Progress (1): 180/584 kB
+Progress (1): 197/584 kB
+Progress (1): 213/584 kB
+Progress (1): 229/584 kB
+Progress (1): 246/584 kB
+Progress (1): 262/584 kB
+Progress (1): 279/584 kB
+Progress (1): 295/584 kB
+Progress (1): 311/584 kB
+Progress (1): 328/584 kB
+Progress (1): 344/584 kB
+Progress (1): 360/584 kB
+Progress (1): 377/584 kB
+Progress (1): 393/584 kB
+Progress (1): 410/584 kB
+Progress (1): 426/584 kB
+Progress (1): 442/584 kB
+Progress (1): 459/584 kB
+Progress (1): 475/584 kB
+Progress (1): 492/584 kB
+Progress (1): 508/584 kB
+Progress (1): 524/584 kB
+Progress (1): 541/584 kB
+Progress (1): 557/584 kB
+Progress (1): 573/584 kB
+Progress (1): 584 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/io/javalin/javalin/4.6.8/javalin-4.6.8.jar (584 kB at 4.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar
+Progress (1): 7.7/96 kB
+Progress (1): 16/96 kB 
+Progress (1): 25/96 kB
+Progress (1): 41/96 kB
+Progress (1): 57/96 kB
+Progress (1): 74/96 kB
+Progress (1): 90/96 kB
+Progress (1): 96 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar (96 kB at 1.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.jar
+Progress (1): 7.7/140 kB
+Progress (1): 16/140 kB 
+Progress (1): 32/140 kB
+Progress (1): 49/140 kB
+Progress (2): 49/140 kB | 0.9/584 kB
+Progress (2): 57/140 kB | 0.9/584 kB
+Progress (2): 57/140 kB | 2.3/584 kB
+Progress (2): 57/140 kB | 3.6/584 kB
+Progress (2): 57/140 kB | 5.0/584 kB
+Progress (2): 74/140 kB | 5.0/584 kB
+Progress (2): 74/140 kB | 6.4/584 kB
+Progress (2): 74/140 kB | 7.7/584 kB
+Progress (2): 74/140 kB | 9.1/584 kB
+Progress (2): 74/140 kB | 10/584 kB 
+Progress (2): 90/140 kB | 10/584 kB
+Progress (2): 90/140 kB | 12/584 kB
+Progress (2): 90/140 kB | 13/584 kB
+Progress (2): 90/140 kB | 15/584 kB
+Progress (2): 106/140 kB | 15/584 kB
+Progress (2): 106/140 kB | 16/584 kB
+Progress (2): 106/140 kB | 17/584 kB
+Progress (2): 123/140 kB | 17/584 kB
+Progress (2): 123/140 kB | 19/584 kB
+Progress (2): 123/140 kB | 20/584 kB
+Progress (2): 123/140 kB | 21/584 kB
+Progress (2): 139/140 kB | 21/584 kB
+Progress (2): 139/140 kB | 23/584 kB
+Progress (2): 140 kB | 23/584 kB    
+Progress (2): 140 kB | 24/584 kB
+Progress (2): 140 kB | 25/584 kB
+Progress (2): 140 kB | 26/584 kB
+Progress (2): 140 kB | 27/584 kB
+Progress (2): 140 kB | 29/584 kB
+Progress (2): 140 kB | 30/584 kB
+Progress (2): 140 kB | 31/584 kB
+Progress (2): 140 kB | 33/584 kB
+Progress (2): 140 kB | 34/584 kB
+Progress (2): 140 kB | 36/584 kB
+Progress (2): 140 kB | 37/584 kB
+Progress (2): 140 kB | 38/584 kB
+Progress (2): 140 kB | 40/584 kB
+Progress (2): 140 kB | 41/584 kB
+Progress (2): 140 kB | 42/584 kB
+Progress (2): 140 kB | 44/584 kB
+Progress (2): 140 kB | 45/584 kB
+Progress (2): 140 kB | 46/584 kB
+Progress (2): 140 kB | 48/584 kB
+Progress (2): 140 kB | 49/584 kB
+Progress (2): 140 kB | 51/584 kB
+Progress (2): 140 kB | 52/584 kB
+Progress (2): 140 kB | 53/584 kB
+Progress (2): 140 kB | 55/584 kB
+Progress (2): 140 kB | 59/584 kB
+Progress (2): 140 kB | 63/584 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.51.v20230217/jetty-webapp-9.4.51.v20230217.jar (140 kB at 1.2 MB/s)
+Progress (1): 67/584 kB
+                       
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.jar
+Progress (2): 67/584 kB | 1.4/235 kB
+Progress (3): 67/584 kB | 1.4/235 kB | 0.9/737 kB
+Progress (3): 72/584 kB | 1.4/235 kB | 0.9/737 kB
+Progress (3): 72/584 kB | 1.4/235 kB | 2.3/737 kB
+Progress (4): 72/584 kB | 1.4/235 kB | 2.3/737 kB | 0.9/183 kB
+Progress (4): 72/584 kB | 2.7/235 kB | 2.3/737 kB | 0.9/183 kB
+Progress (4): 72/584 kB | 2.7/235 kB | 2.3/737 kB | 2.3/183 kB
+Progress (4): 76/584 kB | 2.7/235 kB | 2.3/737 kB | 2.3/183 kB
+Progress (4): 76/584 kB | 2.7/235 kB | 2.3/737 kB | 3.6/183 kB
+Progress (4): 80/584 kB | 2.7/235 kB | 2.3/737 kB | 3.6/183 kB
+Progress (4): 84/584 kB | 2.7/235 kB | 2.3/737 kB | 3.6/183 kB
+Progress (4): 89/584 kB | 2.7/235 kB | 2.3/737 kB | 3.6/183 kB
+Progress (4): 93/584 kB | 2.7/235 kB | 2.3/737 kB | 3.6/183 kB
+Progress (4): 93/584 kB | 2.7/235 kB | 3.6/737 kB | 3.6/183 kB
+Progress (4): 97/584 kB | 2.7/235 kB | 3.6/737 kB | 3.6/183 kB
+Progress (4): 97/584 kB | 2.7/235 kB | 5.0/737 kB | 3.6/183 kB
+Progress (4): 101/584 kB | 2.7/235 kB | 5.0/737 kB | 3.6/183 kB
+Progress (4): 101/584 kB | 2.7/235 kB | 5.0/737 kB | 5.0/183 kB
+Progress (4): 105/584 kB | 2.7/235 kB | 5.0/737 kB | 5.0/183 kB
+Progress (4): 105/584 kB | 4.1/235 kB | 5.0/737 kB | 5.0/183 kB
+Progress (4): 105/584 kB | 4.1/235 kB | 5.0/737 kB | 6.4/183 kB
+Progress (4): 105/584 kB | 4.1/235 kB | 6.4/737 kB | 6.4/183 kB
+Progress (4): 105/584 kB | 5.5/235 kB | 6.4/737 kB | 6.4/183 kB
+Progress (4): 110/584 kB | 5.5/235 kB | 6.4/737 kB | 6.4/183 kB
+Progress (4): 110/584 kB | 6.8/235 kB | 6.4/737 kB | 6.4/183 kB
+Progress (4): 110/584 kB | 6.8/235 kB | 7.7/737 kB | 6.4/183 kB
+Progress (4): 110/584 kB | 6.8/235 kB | 7.7/737 kB | 7.7/183 kB
+Progress (4): 110/584 kB | 8.2/235 kB | 7.7/737 kB | 7.7/183 kB
+Progress (4): 114/584 kB | 8.2/235 kB | 7.7/737 kB | 7.7/183 kB
+Progress (4): 114/584 kB | 8.2/235 kB | 9.1/737 kB | 7.7/183 kB
+Progress (4): 114/584 kB | 8.2/235 kB | 9.1/737 kB | 9.1/183 kB
+Progress (4): 118/584 kB | 8.2/235 kB | 9.1/737 kB | 9.1/183 kB
+Progress (4): 118/584 kB | 9.6/235 kB | 9.1/737 kB | 9.1/183 kB
+Progress (4): 122/584 kB | 9.6/235 kB | 9.1/737 kB | 9.1/183 kB
+Progress (4): 122/584 kB | 11/235 kB | 9.1/737 kB | 9.1/183 kB 
+Progress (4): 122/584 kB | 11/235 kB | 9.1/737 kB | 10/183 kB 
+Progress (4): 122/584 kB | 11/235 kB | 10/737 kB | 10/183 kB 
+Progress (4): 122/584 kB | 11/235 kB | 10/737 kB | 12/183 kB
+Progress (4): 127/584 kB | 11/235 kB | 10/737 kB | 12/183 kB
+Progress (4): 127/584 kB | 12/235 kB | 10/737 kB | 12/183 kB
+Progress (4): 127/584 kB | 12/235 kB | 10/737 kB | 12/183 kB
+Progress (4): 127/584 kB | 12/235 kB | 12/737 kB | 12/183 kB
+Progress (4): 127/584 kB | 12/235 kB | 12/737 kB | 14/183 kB
+Progress (4): 127/584 kB | 12/235 kB | 12/737 kB | 14/183 kB
+Progress (4): 127/584 kB | 14/235 kB | 12/737 kB | 14/183 kB
+Progress (4): 131/584 kB | 14/235 kB | 12/737 kB | 14/183 kB
+Progress (4): 131/584 kB | 15/235 kB | 12/737 kB | 14/183 kB
+Progress (4): 131/584 kB | 15/235 kB | 14/737 kB | 14/183 kB
+Progress (4): 131/584 kB | 15/235 kB | 14/737 kB | 15/183 kB
+Progress (4): 131/584 kB | 16/235 kB | 14/737 kB | 15/183 kB
+Progress (4): 135/584 kB | 16/235 kB | 14/737 kB | 15/183 kB
+Progress (4): 135/584 kB | 16/235 kB | 15/737 kB | 15/183 kB
+Progress (4): 135/584 kB | 18/235 kB | 15/737 kB | 15/183 kB
+Progress (4): 135/584 kB | 18/235 kB | 15/737 kB | 16/183 kB
+Progress (4): 135/584 kB | 18/235 kB | 16/737 kB | 16/183 kB
+Progress (4): 139/584 kB | 18/235 kB | 16/737 kB | 16/183 kB
+Progress (4): 139/584 kB | 18/235 kB | 16/737 kB | 18/183 kB
+Progress (4): 139/584 kB | 19/235 kB | 16/737 kB | 18/183 kB
+Progress (4): 139/584 kB | 19/235 kB | 16/737 kB | 19/183 kB
+Progress (4): 139/584 kB | 19/235 kB | 18/737 kB | 19/183 kB
+Progress (4): 139/584 kB | 21/235 kB | 18/737 kB | 19/183 kB
+Progress (4): 144/584 kB | 21/235 kB | 18/737 kB | 19/183 kB
+Progress (4): 144/584 kB | 21/235 kB | 19/737 kB | 19/183 kB
+Progress (4): 144/584 kB | 21/235 kB | 19/737 kB | 21/183 kB
+Progress (4): 144/584 kB | 22/235 kB | 19/737 kB | 21/183 kB
+Progress (4): 148/584 kB | 22/235 kB | 19/737 kB | 21/183 kB
+Progress (4): 148/584 kB | 22/235 kB | 21/737 kB | 21/183 kB
+Progress (4): 148/584 kB | 23/235 kB | 21/737 kB | 21/183 kB
+Progress (4): 148/584 kB | 23/235 kB | 21/737 kB | 22/183 kB
+Progress (4): 152/584 kB | 23/235 kB | 21/737 kB | 22/183 kB
+Progress (4): 152/584 kB | 23/235 kB | 22/737 kB | 22/183 kB
+Progress (4): 152/584 kB | 23/235 kB | 22/737 kB | 23/183 kB
+Progress (4): 156/584 kB | 23/235 kB | 22/737 kB | 23/183 kB
+Progress (4): 156/584 kB | 25/235 kB | 22/737 kB | 23/183 kB
+Progress (4): 156/584 kB | 25/235 kB | 22/737 kB | 25/183 kB
+Progress (4): 156/584 kB | 25/235 kB | 23/737 kB | 25/183 kB
+Progress (4): 160/584 kB | 25/235 kB | 23/737 kB | 25/183 kB
+Progress (4): 160/584 kB | 26/235 kB | 23/737 kB | 25/183 kB
+Progress (4): 160/584 kB | 26/235 kB | 25/737 kB | 25/183 kB
+Progress (4): 160/584 kB | 26/235 kB | 25/737 kB | 26/183 kB
+Progress (4): 164/584 kB | 26/235 kB | 25/737 kB | 26/183 kB
+Progress (4): 164/584 kB | 26/235 kB | 25/737 kB | 27/183 kB
+Progress (4): 164/584 kB | 27/235 kB | 25/737 kB | 27/183 kB
+Progress (4): 168/584 kB | 27/235 kB | 25/737 kB | 27/183 kB
+Progress (4): 168/584 kB | 27/235 kB | 26/737 kB | 27/183 kB
+Progress (4): 168/584 kB | 29/235 kB | 26/737 kB | 27/183 kB
+Progress (5): 168/584 kB | 29/235 kB | 26/737 kB | 27/183 kB | 7.7/68 kB
+Progress (5): 168/584 kB | 29/235 kB | 26/737 kB | 29/183 kB | 7.7/68 kB
+Progress (5): 168/584 kB | 29/235 kB | 26/737 kB | 29/183 kB | 8.2/68 kB
+Progress (5): 168/584 kB | 30/235 kB | 26/737 kB | 29/183 kB | 8.2/68 kB
+Progress (5): 168/584 kB | 30/235 kB | 27/737 kB | 29/183 kB | 8.2/68 kB
+Progress (5): 173/584 kB | 30/235 kB | 27/737 kB | 29/183 kB | 8.2/68 kB
+Progress (5): 173/584 kB | 31/235 kB | 27/737 kB | 29/183 kB | 8.2/68 kB
+Progress (5): 173/584 kB | 31/235 kB | 27/737 kB | 30/183 kB | 8.2/68 kB
+Progress (5): 173/584 kB | 31/235 kB | 27/737 kB | 30/183 kB | 25/68 kB 
+Progress (5): 173/584 kB | 31/235 kB | 29/737 kB | 30/183 kB | 25/68 kB
+Progress (5): 173/584 kB | 31/235 kB | 30/737 kB | 30/183 kB | 25/68 kB
+Progress (5): 173/584 kB | 31/235 kB | 30/737 kB | 30/183 kB | 41/68 kB
+Progress (5): 173/584 kB | 31/235 kB | 30/737 kB | 31/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 31/235 kB | 30/737 kB | 31/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 33/235 kB | 30/737 kB | 31/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 33/235 kB | 30/737 kB | 33/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 34/235 kB | 30/737 kB | 33/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 34/235 kB | 30/737 kB | 34/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 34/235 kB | 31/737 kB | 34/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 34/235 kB | 31/737 kB | 36/183 kB | 41/68 kB
+Progress (5): 177/584 kB | 34/235 kB | 31/737 kB | 36/183 kB | 57/68 kB
+Progress (5): 177/584 kB | 36/235 kB | 31/737 kB | 36/183 kB | 57/68 kB
+Progress (5): 181/584 kB | 36/235 kB | 31/737 kB | 36/183 kB | 57/68 kB
+Progress (5): 181/584 kB | 36/235 kB | 31/737 kB | 37/183 kB | 57/68 kB
+Progress (5): 181/584 kB | 36/235 kB | 33/737 kB | 37/183 kB | 57/68 kB
+Progress (5): 181/584 kB | 37/235 kB | 33/737 kB | 37/183 kB | 57/68 kB
+Progress (5): 185/584 kB | 37/235 kB | 33/737 kB | 37/183 kB | 57/68 kB
+Progress (5): 185/584 kB | 37/235 kB | 33/737 kB | 38/183 kB | 57/68 kB
+Progress (5): 185/584 kB | 37/235 kB | 34/737 kB | 38/183 kB | 57/68 kB
+Progress (5): 185/584 kB | 37/235 kB | 34/737 kB | 40/183 kB | 57/68 kB
+Progress (5): 185/584 kB | 38/235 kB | 34/737 kB | 40/183 kB | 57/68 kB
+Progress (5): 189/584 kB | 38/235 kB | 34/737 kB | 40/183 kB | 57/68 kB
+Progress (5): 189/584 kB | 38/235 kB | 34/737 kB | 41/183 kB | 57/68 kB
+Progress (5): 194/584 kB | 38/235 kB | 34/737 kB | 41/183 kB | 57/68 kB
+Progress (5): 194/584 kB | 38/235 kB | 36/737 kB | 41/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 38/235 kB | 36/737 kB | 41/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 38/235 kB | 36/737 kB | 42/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 40/235 kB | 36/737 kB | 42/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 40/235 kB | 36/737 kB | 44/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 41/235 kB | 36/737 kB | 44/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 41/235 kB | 36/737 kB | 45/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 41/235 kB | 37/737 kB | 45/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 41/235 kB | 37/737 kB | 47/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 41/235 kB | 38/737 kB | 47/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 41/235 kB | 38/737 kB | 48/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 42/235 kB | 38/737 kB | 48/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 42/235 kB | 38/737 kB | 49/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 44/235 kB | 38/737 kB | 49/183 kB | 57/68 kB
+Progress (5): 198/584 kB | 44/235 kB | 38/737 kB | 49/183 kB | 68 kB   
+Progress (5): 198/584 kB | 45/235 kB | 38/737 kB | 49/183 kB | 68 kB
+Progress (5): 198/584 kB | 47/235 kB | 38/737 kB | 49/183 kB | 68 kB
+Progress (5): 202/584 kB | 47/235 kB | 38/737 kB | 49/183 kB | 68 kB
+Progress (5): 202/584 kB | 48/235 kB | 38/737 kB | 49/183 kB | 68 kB
+Progress (5): 202/584 kB | 48/235 kB | 38/737 kB | 51/183 kB | 68 kB
+Progress (5): 202/584 kB | 48/235 kB | 40/737 kB | 51/183 kB | 68 kB
+Progress (5): 202/584 kB | 49/235 kB | 40/737 kB | 51/183 kB | 68 kB
+Progress (5): 206/584 kB | 49/235 kB | 40/737 kB | 51/183 kB | 68 kB
+Progress (5): 206/584 kB | 49/235 kB | 40/737 kB | 52/183 kB | 68 kB
+Progress (5): 206/584 kB | 51/235 kB | 40/737 kB | 52/183 kB | 68 kB
+Progress (5): 206/584 kB | 51/235 kB | 41/737 kB | 52/183 kB | 68 kB
+Progress (5): 206/584 kB | 51/235 kB | 41/737 kB | 53/183 kB | 68 kB
+Progress (5): 206/584 kB | 52/235 kB | 41/737 kB | 53/183 kB | 68 kB
+Progress (5): 211/584 kB | 52/235 kB | 41/737 kB | 53/183 kB | 68 kB
+Progress (5): 211/584 kB | 52/235 kB | 41/737 kB | 55/183 kB | 68 kB
+Progress (5): 215/584 kB | 52/235 kB | 41/737 kB | 55/183 kB | 68 kB
+Progress (5): 215/584 kB | 52/235 kB | 41/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 41/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 42/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 44/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 45/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 47/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 48/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 49/737 kB | 59/183 kB | 68 kB
+Progress (5): 219/584 kB | 52/235 kB | 49/737 kB | 63/183 kB | 68 kB
+Progress (5): 219/584 kB | 53/235 kB | 49/737 kB | 63/183 kB | 68 kB
+Progress (5): 223/584 kB | 53/235 kB | 49/737 kB | 63/183 kB | 68 kB
+Progress (5): 223/584 kB | 55/235 kB | 49/737 kB | 63/183 kB | 68 kB
+Progress (5): 223/584 kB | 55/235 kB | 49/737 kB | 67/183 kB | 68 kB
+Progress (5): 223/584 kB | 59/235 kB | 49/737 kB | 67/183 kB | 68 kB
+Progress (5): 223/584 kB | 59/235 kB | 49/737 kB | 72/183 kB | 68 kB
+Progress (5): 223/584 kB | 59/235 kB | 51/737 kB | 72/183 kB | 68 kB
+Progress (5): 223/584 kB | 63/235 kB | 51/737 kB | 72/183 kB | 68 kB
+Progress (5): 223/584 kB | 63/235 kB | 51/737 kB | 76/183 kB | 68 kB
+Progress (5): 223/584 kB | 63/235 kB | 52/737 kB | 76/183 kB | 68 kB
+Progress (5): 223/584 kB | 66/235 kB | 52/737 kB | 76/183 kB | 68 kB
+Progress (5): 223/584 kB | 66/235 kB | 52/737 kB | 80/183 kB | 68 kB
+Progress (5): 240/584 kB | 66/235 kB | 52/737 kB | 80/183 kB | 68 kB
+Progress (5): 240/584 kB | 70/235 kB | 52/737 kB | 80/183 kB | 68 kB
+Progress (5): 240/584 kB | 70/235 kB | 53/737 kB | 80/183 kB | 68 kB
+Progress (5): 240/584 kB | 74/235 kB | 53/737 kB | 80/183 kB | 68 kB
+Progress (5): 256/584 kB | 74/235 kB | 53/737 kB | 80/183 kB | 68 kB
+Progress (5): 272/584 kB | 74/235 kB | 53/737 kB | 80/183 kB | 68 kB
+Progress (5): 272/584 kB | 74/235 kB | 53/737 kB | 84/183 kB | 68 kB
+Progress (5): 272/584 kB | 74/235 kB | 55/737 kB | 84/183 kB | 68 kB
+Progress (5): 272/584 kB | 78/235 kB | 55/737 kB | 84/183 kB | 68 kB
+Progress (5): 272/584 kB | 78/235 kB | 55/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 82/235 kB | 55/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 87/235 kB | 55/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 87/235 kB | 59/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 91/235 kB | 59/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 91/235 kB | 63/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 95/235 kB | 63/737 kB | 89/183 kB | 68 kB
+Progress (5): 272/584 kB | 95/235 kB | 63/737 kB | 93/183 kB | 68 kB
+Progress (5): 287/584 kB | 95/235 kB | 63/737 kB | 93/183 kB | 68 kB
+Progress (5): 287/584 kB | 99/235 kB | 63/737 kB | 93/183 kB | 68 kB
+Progress (5): 287/584 kB | 99/235 kB | 63/737 kB | 97/183 kB | 68 kB
+Progress (5): 287/584 kB | 104/235 kB | 63/737 kB | 97/183 kB | 68 kB
+Progress (5): 287/584 kB | 104/235 kB | 63/737 kB | 101/183 kB | 68 kB
+Progress (5): 287/584 kB | 104/235 kB | 67/737 kB | 101/183 kB | 68 kB
+Progress (5): 287/584 kB | 108/235 kB | 67/737 kB | 101/183 kB | 68 kB
+Progress (5): 287/584 kB | 108/235 kB | 72/737 kB | 101/183 kB | 68 kB
+                                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.51.v20230217/jetty-xml-9.4.51.v20230217.jar (68 kB at 397 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.jar
+Progress (4): 287/584 kB | 108/235 kB | 76/737 kB | 101/183 kB
+Progress (4): 287/584 kB | 108/235 kB | 80/737 kB | 101/183 kB
+Progress (4): 287/584 kB | 108/235 kB | 80/737 kB | 105/183 kB
+Progress (4): 287/584 kB | 112/235 kB | 80/737 kB | 105/183 kB
+Progress (4): 287/584 kB | 112/235 kB | 80/737 kB | 110/183 kB
+Progress (4): 287/584 kB | 116/235 kB | 80/737 kB | 110/183 kB
+Progress (4): 287/584 kB | 116/235 kB | 80/737 kB | 114/183 kB
+Progress (4): 287/584 kB | 121/235 kB | 80/737 kB | 114/183 kB
+Progress (4): 287/584 kB | 121/235 kB | 80/737 kB | 118/183 kB
+Progress (4): 287/584 kB | 125/235 kB | 80/737 kB | 118/183 kB
+Progress (4): 287/584 kB | 125/235 kB | 80/737 kB | 122/183 kB
+Progress (4): 287/584 kB | 129/235 kB | 80/737 kB | 122/183 kB
+Progress (4): 287/584 kB | 129/235 kB | 80/737 kB | 127/183 kB
+Progress (4): 287/584 kB | 133/235 kB | 80/737 kB | 127/183 kB
+Progress (4): 287/584 kB | 133/235 kB | 80/737 kB | 131/183 kB
+Progress (4): 287/584 kB | 137/235 kB | 80/737 kB | 131/183 kB
+Progress (4): 287/584 kB | 137/235 kB | 80/737 kB | 135/183 kB
+Progress (4): 287/584 kB | 142/235 kB | 80/737 kB | 135/183 kB
+Progress (4): 287/584 kB | 142/235 kB | 80/737 kB | 139/183 kB
+Progress (4): 303/584 kB | 142/235 kB | 80/737 kB | 139/183 kB
+Progress (4): 303/584 kB | 146/235 kB | 80/737 kB | 139/183 kB
+Progress (4): 303/584 kB | 146/235 kB | 84/737 kB | 139/183 kB
+Progress (4): 303/584 kB | 146/235 kB | 84/737 kB | 143/183 kB
+Progress (4): 303/584 kB | 150/235 kB | 84/737 kB | 143/183 kB
+Progress (4): 303/584 kB | 150/235 kB | 89/737 kB | 143/183 kB
+Progress (4): 303/584 kB | 150/235 kB | 89/737 kB | 148/183 kB
+Progress (4): 303/584 kB | 154/235 kB | 89/737 kB | 148/183 kB
+Progress (4): 303/584 kB | 154/235 kB | 93/737 kB | 148/183 kB
+Progress (4): 303/584 kB | 154/235 kB | 93/737 kB | 152/183 kB
+Progress (4): 303/584 kB | 159/235 kB | 93/737 kB | 152/183 kB
+Progress (4): 303/584 kB | 159/235 kB | 97/737 kB | 152/183 kB
+Progress (4): 303/584 kB | 159/235 kB | 97/737 kB | 156/183 kB
+Progress (4): 303/584 kB | 163/235 kB | 97/737 kB | 156/183 kB
+Progress (4): 303/584 kB | 163/235 kB | 101/737 kB | 156/183 kB
+Progress (4): 303/584 kB | 163/235 kB | 101/737 kB | 160/183 kB
+Progress (4): 303/584 kB | 167/235 kB | 101/737 kB | 160/183 kB
+Progress (4): 303/584 kB | 167/235 kB | 105/737 kB | 160/183 kB
+Progress (4): 303/584 kB | 167/235 kB | 105/737 kB | 165/183 kB
+Progress (4): 303/584 kB | 171/235 kB | 105/737 kB | 165/183 kB
+Progress (4): 303/584 kB | 171/235 kB | 105/737 kB | 169/183 kB
+Progress (4): 303/584 kB | 171/235 kB | 110/737 kB | 169/183 kB
+Progress (4): 303/584 kB | 175/235 kB | 110/737 kB | 169/183 kB
+Progress (4): 303/584 kB | 180/235 kB | 110/737 kB | 169/183 kB
+Progress (4): 303/584 kB | 180/235 kB | 110/737 kB | 173/183 kB
+Progress (4): 303/584 kB | 180/235 kB | 114/737 kB | 173/183 kB
+Progress (4): 303/584 kB | 184/235 kB | 114/737 kB | 173/183 kB
+Progress (4): 303/584 kB | 184/235 kB | 114/737 kB | 177/183 kB
+Progress (4): 303/584 kB | 184/235 kB | 118/737 kB | 177/183 kB
+Progress (4): 303/584 kB | 188/235 kB | 118/737 kB | 177/183 kB
+Progress (4): 319/584 kB | 188/235 kB | 118/737 kB | 177/183 kB
+Progress (4): 319/584 kB | 188/235 kB | 118/737 kB | 181/183 kB
+Progress (4): 319/584 kB | 192/235 kB | 118/737 kB | 181/183 kB
+Progress (4): 319/584 kB | 192/235 kB | 122/737 kB | 181/183 kB
+Progress (4): 319/584 kB | 192/235 kB | 122/737 kB | 183 kB    
+Progress (4): 319/584 kB | 197/235 kB | 122/737 kB | 183 kB
+Progress (4): 319/584 kB | 197/235 kB | 127/737 kB | 183 kB
+Progress (4): 336/584 kB | 197/235 kB | 127/737 kB | 183 kB
+Progress (4): 336/584 kB | 197/235 kB | 127/737 kB | 183 kB
+Progress (4): 336/584 kB | 201/235 kB | 127/737 kB | 183 kB
+Progress (4): 336/584 kB | 201/235 kB | 131/737 kB | 183 kB
+Progress (4): 336/584 kB | 205/235 kB | 131/737 kB | 183 kB
+Progress (4): 352/584 kB | 205/235 kB | 131/737 kB | 183 kB
+Progress (4): 352/584 kB | 205/235 kB | 135/737 kB | 183 kB
+Progress (4): 352/584 kB | 209/235 kB | 135/737 kB | 183 kB
+Progress (4): 352/584 kB | 209/235 kB | 140/737 kB | 183 kB
+Progress (4): 352/584 kB | 214/235 kB | 140/737 kB | 183 kB
+Progress (4): 369/584 kB | 214/235 kB | 140/737 kB | 183 kB
+Progress (4): 369/584 kB | 214/235 kB | 144/737 kB | 183 kB
+Progress (4): 369/584 kB | 218/235 kB | 144/737 kB | 183 kB
+Progress (4): 369/584 kB | 218/235 kB | 148/737 kB | 183 kB
+Progress (4): 369/584 kB | 222/235 kB | 148/737 kB | 183 kB
+Progress (4): 385/584 kB | 222/235 kB | 148/737 kB | 183 kB
+Progress (4): 385/584 kB | 222/235 kB | 152/737 kB | 183 kB
+Progress (4): 385/584 kB | 222/235 kB | 157/737 kB | 183 kB
+Progress (4): 385/584 kB | 235 kB | 157/737 kB | 183 kB    
+Progress (4): 385/584 kB | 235 kB | 161/737 kB | 183 kB
+Progress (4): 385/584 kB | 235 kB | 165/737 kB | 183 kB
+Progress (4): 401/584 kB | 235 kB | 165/737 kB | 183 kB
+Progress (4): 401/584 kB | 235 kB | 169/737 kB | 183 kB
+Progress (4): 401/584 kB | 235 kB | 173/737 kB | 183 kB
+Progress (4): 418/584 kB | 235 kB | 173/737 kB | 183 kB
+Progress (4): 418/584 kB | 235 kB | 178/737 kB | 183 kB
+Progress (4): 418/584 kB | 235 kB | 182/737 kB | 183 kB
+Progress (4): 434/584 kB | 235 kB | 182/737 kB | 183 kB
+Progress (4): 434/584 kB | 235 kB | 186/737 kB | 183 kB
+Progress (4): 434/584 kB | 235 kB | 190/737 kB | 183 kB
+Progress (4): 451/584 kB | 235 kB | 190/737 kB | 183 kB
+Progress (4): 451/584 kB | 235 kB | 195/737 kB | 183 kB
+Progress (4): 451/584 kB | 235 kB | 199/737 kB | 183 kB
+Progress (4): 451/584 kB | 235 kB | 203/737 kB | 183 kB
+Progress (4): 467/584 kB | 235 kB | 203/737 kB | 183 kB
+Progress (4): 467/584 kB | 235 kB | 207/737 kB | 183 kB
+Progress (4): 467/584 kB | 235 kB | 212/737 kB | 183 kB
+Progress (4): 467/584 kB | 235 kB | 216/737 kB | 183 kB
+Progress (4): 483/584 kB | 235 kB | 216/737 kB | 183 kB
+Progress (4): 483/584 kB | 235 kB | 220/737 kB | 183 kB
+Progress (4): 500/584 kB | 235 kB | 220/737 kB | 183 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar (183 kB at 968 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.jar
+Progress (3): 500/584 kB | 235 kB | 236/737 kB
+Progress (3): 516/584 kB | 235 kB | 236/737 kB
+Progress (3): 516/584 kB | 235 kB | 253/737 kB
+Progress (3): 532/584 kB | 235 kB | 253/737 kB
+Progress (3): 532/584 kB | 235 kB | 258/737 kB
+Progress (3): 549/584 kB | 235 kB | 258/737 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar (235 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.51.v20230217/jetty-util-ajax-9.4.51.v20230217.jar
+Progress (2): 565/584 kB | 258/737 kB
+Progress (2): 582/584 kB | 258/737 kB
+Progress (2): 582/584 kB | 274/737 kB
+Progress (2): 584 kB | 274/737 kB    
+Progress (2): 584 kB | 291/737 kB
+Progress (2): 584 kB | 307/737 kB
+Progress (2): 584 kB | 324/737 kB
+Progress (2): 584 kB | 340/737 kB
+Progress (2): 584 kB | 356/737 kB
+Progress (2): 584 kB | 373/737 kB
+Progress (2): 584 kB | 389/737 kB
+Progress (2): 584 kB | 406/737 kB
+Progress (2): 584 kB | 422/737 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar (584 kB at 2.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.51.v20230217/websocket-server-9.4.51.v20230217.jar
+Progress (1): 438/737 kB
+Progress (1): 455/737 kB
+Progress (1): 471/737 kB
+Progress (2): 471/737 kB | 4.1/146 kB
+Progress (2): 487/737 kB | 4.1/146 kB
+Progress (2): 487/737 kB | 20/146 kB 
+Progress (2): 504/737 kB | 20/146 kB
+Progress (2): 504/737 kB | 37/146 kB
+Progress (2): 504/737 kB | 53/146 kB
+Progress (2): 504/737 kB | 70/146 kB
+Progress (2): 504/737 kB | 86/146 kB
+Progress (2): 520/737 kB | 86/146 kB
+Progress (2): 520/737 kB | 102/146 kB
+Progress (2): 537/737 kB | 102/146 kB
+Progress (2): 537/737 kB | 119/146 kB
+Progress (2): 553/737 kB | 119/146 kB
+Progress (2): 553/737 kB | 135/146 kB
+Progress (2): 553/737 kB | 146 kB    
+Progress (2): 569/737 kB | 146 kB
+Progress (2): 586/737 kB | 146 kB
+Progress (2): 602/737 kB | 146 kB
+Progress (2): 618/737 kB | 146 kB
+Progress (2): 635/737 kB | 146 kB
+Progress (2): 651/737 kB | 146 kB
+Progress (2): 668/737 kB | 146 kB
+Progress (3): 668/737 kB | 146 kB | 7.7/119 kB
+Progress (3): 668/737 kB | 146 kB | 16/119 kB 
+Progress (3): 668/737 kB | 146 kB | 25/119 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.51.v20230217/jetty-servlet-9.4.51.v20230217.jar (146 kB at 649 kB/s)
+Progress (3): 668/737 kB | 25/119 kB | 4.2/67 kB
+Progress (3): 684/737 kB | 25/119 kB | 4.2/67 kB
+                                                
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.51.v20230217/websocket-common-9.4.51.v20230217.jar
+Progress (3): 684/737 kB | 41/119 kB | 4.2/67 kB
+Progress (3): 684/737 kB | 41/119 kB | 8.5/67 kB
+Progress (3): 684/737 kB | 41/119 kB | 13/67 kB 
+Progress (3): 700/737 kB | 41/119 kB | 13/67 kB
+Progress (3): 700/737 kB | 41/119 kB | 16/67 kB
+Progress (3): 700/737 kB | 41/119 kB | 21/67 kB
+Progress (3): 700/737 kB | 41/119 kB | 25/67 kB
+Progress (3): 717/737 kB | 41/119 kB | 25/67 kB
+Progress (3): 733/737 kB | 41/119 kB | 25/67 kB
+Progress (3): 737 kB | 41/119 kB | 25/67 kB    
+Progress (3): 737 kB | 41/119 kB | 29/67 kB
+Progress (3): 737 kB | 41/119 kB | 33/67 kB
+Progress (3): 737 kB | 57/119 kB | 33/67 kB
+Progress (3): 737 kB | 57/119 kB | 41/67 kB
+Progress (3): 737 kB | 74/119 kB | 41/67 kB
+Progress (3): 737 kB | 74/119 kB | 57/67 kB
+Progress (3): 737 kB | 90/119 kB | 57/67 kB
+Progress (3): 737 kB | 90/119 kB | 67 kB   
+Progress (3): 737 kB | 106/119 kB | 67 kB
+Progress (3): 737 kB | 119 kB | 67 kB    
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.51.v20230217/jetty-util-ajax-9.4.51.v20230217.jar (67 kB at 278 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.51.v20230217/websocket-api-9.4.51.v20230217.jar
+Progress (3): 737 kB | 119 kB | 16/46 kB
+                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar (737 kB at 3.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.51.v20230217/websocket-client-9.4.51.v20230217.jar
+Progress (2): 119 kB | 25/46 kB
+Progress (2): 119 kB | 41/46 kB
+Progress (2): 119 kB | 46 kB   
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.51.v20230217/jetty-security-9.4.51.v20230217.jar (119 kB at 490 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.51.v20230217/jetty-client-9.4.51.v20230217.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.51.v20230217/websocket-server-9.4.51.v20230217.jar (46 kB at 181 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.51.v20230217/websocket-servlet-9.4.51.v20230217.jar
+Progress (1): 7.7/215 kB
+Progress (1): 12/215 kB 
+Progress (1): 29/215 kB
+Progress (1): 45/215 kB
+Progress (1): 61/215 kB
+Progress (1): 78/215 kB
+Progress (1): 94/215 kB
+Progress (1): 111/215 kB
+Progress (1): 127/215 kB
+Progress (1): 143/215 kB
+Progress (1): 160/215 kB
+Progress (1): 164/215 kB
+Progress (1): 180/215 kB
+Progress (1): 196/215 kB
+Progress (1): 213/215 kB
+Progress (1): 215 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.51.v20230217/websocket-common-9.4.51.v20230217.jar (215 kB at 769 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.32/kotlin-stdlib-jdk8-1.5.32.jar
+Progress (1): 7.7/52 kB
+Progress (2): 7.7/52 kB | 7.7/46 kB
+Progress (2): 16/52 kB | 7.7/46 kB 
+Progress (2): 16/52 kB | 12/46 kB 
+Progress (2): 29/52 kB | 12/46 kB
+Progress (3): 29/52 kB | 12/46 kB | 7.7/328 kB
+Progress (3): 29/52 kB | 28/46 kB | 7.7/328 kB
+Progress (3): 29/52 kB | 28/46 kB | 16/328 kB 
+Progress (3): 45/52 kB | 28/46 kB | 16/328 kB
+Progress (3): 45/52 kB | 28/46 kB | 25/328 kB
+Progress (3): 45/52 kB | 44/46 kB | 25/328 kB
+Progress (3): 52 kB | 44/46 kB | 25/328 kB   
+Progress (3): 52 kB | 46 kB | 25/328 kB   
+Progress (3): 52 kB | 46 kB | 41/328 kB
+Progress (3): 52 kB | 46 kB | 57/328 kB
+Progress (3): 52 kB | 46 kB | 74/328 kB
+Progress (3): 52 kB | 46 kB | 90/328 kB
+Progress (3): 52 kB | 46 kB | 106/328 kB
+Progress (3): 52 kB | 46 kB | 123/328 kB
+Progress (3): 52 kB | 46 kB | 139/328 kB
+Progress (3): 52 kB | 46 kB | 156/328 kB
+Progress (3): 52 kB | 46 kB | 172/328 kB
+Progress (4): 52 kB | 46 kB | 172/328 kB | 7.7/30 kB
+Progress (4): 52 kB | 46 kB | 188/328 kB | 7.7/30 kB
+Progress (4): 52 kB | 46 kB | 188/328 kB | 16/30 kB 
+Progress (4): 52 kB | 46 kB | 205/328 kB | 16/30 kB
+Progress (4): 52 kB | 46 kB | 205/328 kB | 30 kB   
+Progress (4): 52 kB | 46 kB | 221/328 kB | 30 kB
+Progress (4): 52 kB | 46 kB | 238/328 kB | 30 kB
+Progress (4): 52 kB | 46 kB | 254/328 kB | 30 kB
+Progress (4): 52 kB | 46 kB | 270/328 kB | 30 kB
+Progress (4): 52 kB | 46 kB | 287/328 kB | 30 kB
+Progress (4): 52 kB | 46 kB | 303/328 kB | 30 kB
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.51.v20230217/websocket-api-9.4.51.v20230217.jar (52 kB at 176 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.32/kotlin-stdlib-1.5.32.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.51.v20230217/websocket-client-9.4.51.v20230217.jar (46 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+Progress (2): 319/328 kB | 30 kB
+Progress (2): 328 kB | 30 kB    
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.51.v20230217/websocket-servlet-9.4.51.v20230217.jar (30 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.32/kotlin-stdlib-common-1.5.32.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.51.v20230217/jetty-client-9.4.51.v20230217.jar (328 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.32/kotlin-stdlib-jdk7-1.5.32.jar
+Progress (1): 7.7/16 kB
+Progress (1): 16/16 kB 
+Progress (1): 16 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.32/kotlin-stdlib-jdk8-1.5.32.jar (16 kB at 49 kB/s)
+Progress (1): 7.7/18 kB
+Progress (1): 16/18 kB 
+Progress (1): 18 kB   
+Progress (2): 18 kB | 0/1.5 MB
+Progress (2): 18 kB | 0/1.5 MB
+Progress (2): 18 kB | 0/1.5 MB
+Progress (2): 18 kB | 0/1.5 MB
+Progress (2): 18 kB | 0.1/1.5 MB
+Progress (2): 18 kB | 0.1/1.5 MB
+Progress (2): 18 kB | 0.1/1.5 MB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar (18 kB at 52 kB/s)
+Progress (1): 0.1/1.5 MB
+Progress (1): 0.1/1.5 MB
+Progress (1): 0.1/1.5 MB
+Progress (1): 0.1/1.5 MB
+Progress (1): 0.2/1.5 MB
+Progress (1): 0.2/1.5 MB
+Progress (1): 0.2/1.5 MB
+Progress (1): 0.2/1.5 MB
+Progress (1): 0.2/1.5 MB
+Progress (1): 0.2/1.5 MB
+Progress (1): 0.3/1.5 MB
+Progress (1): 0.3/1.5 MB
+Progress (1): 0.3/1.5 MB
+Progress (1): 0.3/1.5 MB
+Progress (1): 0.3/1.5 MB
+Progress (2): 0.3/1.5 MB | 7.7/198 kB
+Progress (2): 0.3/1.5 MB | 7.7/198 kB
+Progress (2): 0.3/1.5 MB | 16/198 kB 
+Progress (2): 0.3/1.5 MB | 16/198 kB
+Progress (2): 0.4/1.5 MB | 16/198 kB
+Progress (2): 0.4/1.5 MB | 33/198 kB
+Progress (2): 0.4/1.5 MB | 33/198 kB
+Progress (2): 0.4/1.5 MB | 49/198 kB
+Progress (2): 0.4/1.5 MB | 49/198 kB
+Progress (2): 0.4/1.5 MB | 49/198 kB
+Progress (2): 0.4/1.5 MB | 49/198 kB
+Progress (2): 0.4/1.5 MB | 49/198 kB
+Progress (2): 0.5/1.5 MB | 49/198 kB
+Progress (2): 0.5/1.5 MB | 49/198 kB
+Progress (2): 0.5/1.5 MB | 49/198 kB
+Progress (2): 0.5/1.5 MB | 49/198 kB
+Progress (2): 0.5/1.5 MB | 49/198 kB
+Progress (2): 0.5/1.5 MB | 66/198 kB
+Progress (2): 0.5/1.5 MB | 66/198 kB
+Progress (2): 0.5/1.5 MB | 82/198 kB
+Progress (2): 0.6/1.5 MB | 82/198 kB
+Progress (2): 0.6/1.5 MB | 98/198 kB
+Progress (3): 0.6/1.5 MB | 98/198 kB | 7.7/23 kB
+Progress (3): 0.6/1.5 MB | 98/198 kB | 7.7/23 kB
+Progress (3): 0.6/1.5 MB | 98/198 kB | 12/23 kB 
+Progress (3): 0.6/1.5 MB | 115/198 kB | 12/23 kB
+Progress (3): 0.6/1.5 MB | 115/198 kB | 12/23 kB
+Progress (3): 0.6/1.5 MB | 115/198 kB | 23 kB   
+Progress (3): 0.6/1.5 MB | 115/198 kB | 23 kB
+Progress (3): 0.6/1.5 MB | 115/198 kB | 23 kB
+Progress (3): 0.6/1.5 MB | 115/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 115/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 115/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 131/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 147/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 147/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 147/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 164/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 164/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 180/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 180/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 197/198 kB | 23 kB
+Progress (3): 0.7/1.5 MB | 198 kB | 23 kB    
+Progress (3): 0.8/1.5 MB | 198 kB | 23 kB
+Progress (3): 0.8/1.5 MB | 198 kB | 23 kB
+Progress (3): 0.8/1.5 MB | 198 kB | 23 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.32/kotlin-stdlib-jdk7-1.5.32.jar (23 kB at 63 kB/s)
+Progress (2): 0.8/1.5 MB | 198 kB
+Progress (2): 0.8/1.5 MB | 198 kB
+Progress (2): 0.8/1.5 MB | 198 kB
+Progress (2): 0.9/1.5 MB | 198 kB
+Progress (2): 0.9/1.5 MB | 198 kB
+Progress (2): 0.9/1.5 MB | 198 kB
+Progress (2): 0.9/1.5 MB | 198 kB
+Progress (2): 0.9/1.5 MB | 198 kB
+Progress (2): 0.9/1.5 MB | 198 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.32/kotlin-stdlib-common-1.5.32.jar (198 kB at 540 kB/s)
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.0/1.5 MB
+Progress (1): 1.1/1.5 MB
+Progress (1): 1.1/1.5 MB
+Progress (1): 1.1/1.5 MB
+Progress (1): 1.1/1.5 MB
+Progress (1): 1.1/1.5 MB
+Progress (1): 1.1/1.5 MB
+Progress (1): 1.2/1.5 MB
+Progress (1): 1.2/1.5 MB
+Progress (1): 1.2/1.5 MB
+Progress (1): 1.2/1.5 MB
+Progress (1): 1.2/1.5 MB
+Progress (1): 1.2/1.5 MB
+Progress (1): 1.3/1.5 MB
+Progress (1): 1.3/1.5 MB
+Progress (1): 1.3/1.5 MB
+Progress (1): 1.3/1.5 MB
+Progress (1): 1.3/1.5 MB
+Progress (1): 1.3/1.5 MB
+Progress (1): 1.4/1.5 MB
+Progress (1): 1.4/1.5 MB
+Progress (1): 1.4/1.5 MB
+Progress (1): 1.4/1.5 MB
+Progress (1): 1.4/1.5 MB
+Progress (1): 1.4/1.5 MB
+Progress (1): 1.5/1.5 MB
+Progress (1): 1.5/1.5 MB
+Progress (1): 1.5/1.5 MB
+Progress (1): 1.5 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.32/kotlin-stdlib-1.5.32.jar (1.5 MB at 3.8 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ FlightReservationSystem ---
+[INFO] skip non existing resourceDirectory C:\Users\sijux\Desktop\FALL-2025\ENSF-480\Project\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ FlightReservationSystem ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 19 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ FlightReservationSystem ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.pom
+Progress (1): 729 B
+Progress (1): 2.3 kB
+Progress (1): 4.7 kB
+Progress (1): 8.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.pom (8.2 kB at 168 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom
+Progress (1): 696 B
+Progress (1): 2.7 kB
+Progress (1): 6.4 kB
+Progress (1): 9.2 kB
+Progress (1): 11 kB 
+Progress (1): 15 kB
+Progress (1): 20 kB
+Progress (1): 24 kB
+Progress (1): 25 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom (25 kB at 592 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+Progress (1): 788 B
+Progress (1): 2.3 kB
+Progress (1): 5.3 kB
+Progress (1): 7.8 kB
+Progress (1): 10 kB 
+Progress (1): 11 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom (11 kB at 224 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+Progress (1): 714 B
+Progress (1): 2.0 kB
+Progress (1): 3.3 kB
+Progress (1): 4.8 kB
+Progress (1): 8.2 kB
+Progress (1): 11 kB 
+Progress (1): 15 kB
+Progress (1): 18 kB
+Progress (1): 21 kB
+Progress (1): 24 kB
+Progress (1): 26 kB
+Progress (1): 30 kB
+Progress (1): 32 kB
+Progress (1): 36 kB
+Progress (1): 41 kB
+Progress (1): 42 kB
+Progress (1): 46 kB
+Progress (1): 48 kB
+Progress (1): 51 kB
+Progress (1): 53 kB
+Progress (1): 56 kB
+Progress (1): 57 kB
+Progress (1): 58 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom (58 kB at 1.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom
+Progress (1): 754 B
+Progress (1): 2.1 kB
+Progress (1): 3.9 kB
+Progress (1): 7.9 kB
+Progress (1): 11 kB 
+Progress (1): 14 kB
+Progress (1): 15 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom (15 kB at 339 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar
+Progress (1): 7.7/267 kB
+Progress (1): 16/267 kB 
+Progress (1): 25/267 kB
+Progress (1): 41/267 kB
+Progress (1): 57/267 kB
+Progress (1): 74/267 kB
+Progress (1): 90/267 kB
+Progress (1): 106/267 kB
+Progress (1): 123/267 kB
+Progress (1): 139/267 kB
+Progress (1): 156/267 kB
+Progress (1): 172/267 kB
+Progress (1): 188/267 kB
+Progress (1): 205/267 kB
+Progress (1): 221/267 kB
+Progress (1): 238/267 kB
+Progress (1): 254/267 kB
+Progress (1): 267 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar (267 kB at 3.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+Progress (1): 8.2/54 kB
+Progress (1): 16/54 kB 
+Progress (1): 25/54 kB
+Progress (1): 41/54 kB
+Progress (1): 54 kB   
+Progress (2): 54 kB | 4.1 kB
+                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar (54 kB at 1.1 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.1.1/plexus-component-annotations-2.1.1.jar (4.1 kB at 73 kB/s)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Missing dependency 'Slf4j simple'. Add the dependency.
+
+pom.xml:
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.31</version>
+</dependency>
+
+build.gradle:
+implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.31'
+
+Find the latest version here:
+https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-simple
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+OR
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Missing dependency 'Slf4j simple with Provider'. Add the dependency.
+
+pom.xml:
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.8.0-beta4</version>
+</dependency>
+
+build.gradle:
+implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.8.0-beta4'
+
+Find the latest version here:
+https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-api
+------------------------------------------------------------------- and
+
+-------------------------------------------------------------------
+Missing dependency 'Slf4j simple with Provider'. Add the dependency.
+
+pom.xml:
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.8.0-beta4</version>
+</dependency>
+
+build.gradle:
+implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.8.0-beta4'
+
+Find the latest version here:
+https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-simple
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Visit https://javalin.io/documentation#logging if you need more help
+Flight application is running
