@@ -1048,3 +1048,4 @@ https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-simple
 -------------------------------------------------------------------
 Visit https://javalin.io/documentation#logging if you need more help
 Flight application is running
+^C
