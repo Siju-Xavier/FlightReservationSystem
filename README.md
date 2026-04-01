@@ -14,7 +14,7 @@ The engine of the system, providing a secure REST API for flight searching, book
 -   **Entry Point**: `App.java` (Running on port 8080).
 
 ### 🎨 Frontend (React & Vite)
-A premium, responsive Single Page Application (SPA) designed with a "WOW" factor.
+A premium, responsive Single Page Application (SPA).
 -   **Design**: Modern glassmorphism, smooth animations, and dynamic transitions.
 -   **Tech**: React 18+, Vite, Vanilla CSS.
 -   **API Integration**: Communication via Fetch API to the Java backend.
