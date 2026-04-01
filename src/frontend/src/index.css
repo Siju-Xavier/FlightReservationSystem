@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;800&display=swap');
 
 :root {
-  --primary: #6366f1;
-  /* Indigo */
-  --primary-glow: rgba(99, 102, 241, 0.5);
-  --secondary: #a855f7;
-  /* Violet */
-  --bg-dark: #0f172a;
-  /* Deep Navy */
-  --card-bg: rgba(30, 41, 59, 0.7);
+  --primary: #e2e8f0;
+  /* Bright Silver */
+  --primary-glow: rgba(226, 232, 240, 0.4);
+  --secondary: #94a3b8;
+  /* Gunmetal Silver */
+  --bg-dark: #0f1115;
+  /* Blackish Metallic Hue */
+  --card-bg: rgba(30, 33, 40, 0.6);
   --glass-border: rgba(255, 255, 255, 0.1);
-  --text-main: #f1f5f9;
-  --text-muted: #94a3b8;
+  --text-main: #cbd5e1;
+  --text-muted: #64748b;
 
   --font-main: 'Inter', sans-serif;
   --font-heading: 'Outfit', sans-serif;
@@ -24,7 +24,7 @@
 }
 
 body {
-  background: radial-gradient(circle at top right, #1e1b4b, var(--bg-dark));
+  background: radial-gradient(circle at top right, #1c2026, var(--bg-dark));
   color: var(--text-main);
   font-family: var(--font-main);
   min-height: 100vh;
@@ -94,7 +94,7 @@ h3 {
 .hero-section h2 {
   font-size: 3.5rem;
   margin-bottom: 2rem;
-  background: linear-gradient(to right, #fff, var(--primary));
+  background: linear-gradient(to right, var(--text-main), var(--primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -110,7 +110,7 @@ h3 {
 .search-bar input {
   background: transparent;
   border: none;
-  color: white;
+  color: var(--text-main);
   padding: 1rem;
   flex: 1;
   outline: none;
@@ -119,11 +119,11 @@ h3 {
 
 .primary-btn {
   background: var(--primary);
-  color: white;
+  color: var(--bg-dark);
   border: none;
   padding: 1rem 2rem;
   border-radius: 1rem;
-  font-weight: 600;
+  font-weight: 800;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -187,14 +187,14 @@ h3 {
   background: transparent;
   border: 1px solid var(--glass-border);
   border-radius: 0.8rem;
-  color: white;
+  color: var(--text-main);
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .book-btn:hover {
-  background: white;
+  background: var(--text-main);
   color: var(--bg-dark);
 }
 
@@ -229,7 +229,7 @@ h3 {
   top: 1.5rem;
   right: 1.5rem;
   background: transparent;
-  color: white;
+  color: var(--text-main);
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
@@ -270,7 +270,7 @@ h3 {
   font-size: 0.8rem;
   cursor: pointer;
   transition: 0.2s;
-  color: white;
+  color: var(--text-main);
 }
 
 .seat:not(.occupied):hover {
@@ -311,8 +311,8 @@ h3 {
 }
 
 /* Seat Types CSS */
-.economy { background: var(--primary); }
-.business { background: var(--secondary); border: 2px solid gold; color: white; }
+.economy { background: var(--primary); color: var(--bg-dark); }
+.business { background: var(--secondary); border: 2px solid gold; color: var(--bg-dark); }
 .occupied { background: #334155; color: #64748b; cursor: not-allowed; }
 
 .checkout-btn {
@@ -322,11 +322,11 @@ h3 {
 .auth-section { display: flex; align-items: center; }
 .user-profile { display: flex; align-items: center; gap: 1.5rem; }
 .welcome-text { font-weight: 700; color: var(--primary); font-size: 1.2rem; }
-.secondary-btn { background: transparent; color: white; border: 1px solid rgba(255,255,255,0.1); padding: 0.8rem 1.5rem; border-radius: 1rem; font-weight: bold; cursor: pointer; transition: 0.3s; }
+.secondary-btn { background: transparent; color: var(--text-main); border: 1px solid rgba(255,255,255,0.1); padding: 0.8rem 1.5rem; border-radius: 1rem; font-weight: bold; cursor: pointer; transition: 0.3s; }
 .secondary-btn:hover { background: rgba(255, 255, 255, 0.1); }
 .login-modal { max-width: 400px; }
 .login-form { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
-.login-form input { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 1.2rem; border-radius: 0.8rem; font-size: 1.1rem; outline: none; }
+.login-form input { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: var(--text-main); padding: 1.2rem; border-radius: 0.8rem; font-size: 1.1rem; outline: none; }
 .login-form input:focus { border-color: var(--primary); }
 .error-box { background: rgba(239, 68, 68, 0.2); border: 1px solid #ef4444; color: #fca5a5; padding: 1rem; border-radius: 0.5rem; margin-top: 1rem; font-weight: 600; }
 
