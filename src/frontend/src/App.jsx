@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
+import SeatMap from './components/SeatMap';
 import './index.css'
 
 function App() {
   const [flights, setFlights] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedFlight, setSelectedFlight] = useState(null);
 
   useEffect(() => {
     fetch('http://localhost:8080/api/flights')
@@ -68,7 +70,7 @@ function App() {
                       <p>Arrival</p>
                     </div>
                   </div>
-                  <button className="book-btn">Select Seats</button>
+                  <button className="book-btn" onClick={() => setSelectedFlight(flight)}>Select Seats</button>
                 </div>
               ))}
             </div>
@@ -77,6 +79,13 @@ function App() {
           )}
         </section>
 
+        {/* Seat Map Modal Overlay */}
+        {selectedFlight && (
+           <SeatMap 
+             flight={selectedFlight} 
+             onClose={() => setSelectedFlight(null)} 
+           />
+        )}
       </main>
     </div>
   )
