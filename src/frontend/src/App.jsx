@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import SeatMap from './components/SeatMap';
+import LoginModal from './components/LoginModal';
 import './index.css'
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedFlight, setSelectedFlight] = useState(null);
+  const [currentUser, setCurrentUser] = useState(null);
+  const [showLoginModal, setShowLoginModal] = useState(false);
 
   useEffect(() => {
     fetch('http://localhost:8080/api/flights')
@@ -26,8 +29,20 @@ function App() {
       <div className='bg-glow'>
       </div>
       <header className='glass main-header'>
-        <h1>Canada Airways</h1>
-        <p>Premium Flight Reservations</p>
+        <div>
+          <h1>Canada Airways</h1>
+          <p>Premium Flight Reservations</p>
+        </div>
+        <div className="auth-section">
+          {currentUser ? (
+            <div className="user-profile">
+              <span className="welcome-text">Welcome, {currentUser.username}</span>
+              <button className="secondary-btn" onClick={() => setCurrentUser(null)}>Logout</button>
+            </div>
+          ) : (
+            <button className="primary-btn" onClick={() => setShowLoginModal(true)}>Login</button>
+          )}
+        </div>
       </header>
 
       <main className='content'>
@@ -84,6 +99,17 @@ function App() {
            <SeatMap 
              flight={selectedFlight} 
              onClose={() => setSelectedFlight(null)} 
+           />
+        )}
+
+        {/* Login Modal Overlay */}
+        {showLoginModal && (
+           <LoginModal 
+             onClose={() => setShowLoginModal(false)}
+             onLoginSuccess={(user) => {
+               setCurrentUser(user);
+               setShowLoginModal(false);
+             }}
            />
         )}
       </main>

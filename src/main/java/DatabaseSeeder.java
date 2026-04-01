@@ -24,7 +24,17 @@ public class DatabaseSeeder {
             stmt.executeUpdate(insertFlights);
             System.out.println("Flights added.");
 
-            System.out.println("Database successfully seeded with flights!");
+            // 3. Add Test User
+            String insertUser = "INSERT IGNORE INTO User_ (customer_email, username, customer_password, phone_number, customer_role) VALUES " +
+                    "('test@example.com', 'testuser', 'password123', '555-0199', 'Customer')";
+            stmt.executeUpdate(insertUser);
+
+            String insertCustomer = "INSERT IGNORE INTO Customer (username, first_name, last_name, promotion, is_guest) VALUES " +
+                    "('testuser', 'Test', 'User', FALSE, FALSE)";
+            stmt.executeUpdate(insertCustomer);
+            System.out.println("Test User added.");
+
+            System.out.println("✅ Database successfully seeded with flights and users!");
 
         } catch (Exception e) {
             System.err.println("Error seeding database:");

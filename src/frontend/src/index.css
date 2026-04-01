@@ -319,3 +319,14 @@ h3 {
   width: 100%;
   font-size: 1.2rem;
 }
+.auth-section { display: flex; align-items: center; }
+.user-profile { display: flex; align-items: center; gap: 1.5rem; }
+.welcome-text { font-weight: 700; color: var(--primary); font-size: 1.2rem; }
+.secondary-btn { background: transparent; color: white; border: 1px solid rgba(255,255,255,0.1); padding: 0.8rem 1.5rem; border-radius: 1rem; font-weight: bold; cursor: pointer; transition: 0.3s; }
+.secondary-btn:hover { background: rgba(255, 255, 255, 0.1); }
+.login-modal { max-width: 400px; }
+.login-form { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
+.login-form input { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 1.2rem; border-radius: 0.8rem; font-size: 1.1rem; outline: none; }
+.login-form input:focus { border-color: var(--primary); }
+.error-box { background: rgba(239, 68, 68, 0.2); border: 1px solid #ef4444; color: #fca5a5; padding: 1rem; border-radius: 0.5rem; margin-top: 1rem; font-weight: 600; }
+
