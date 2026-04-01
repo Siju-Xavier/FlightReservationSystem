@@ -17,6 +17,7 @@ FlightController.class
 Seat.class
 User.class
 CreditCardPayment.class
+DatabaseSeeder.class
 FlightAgent.class
 BookingController.class
 LoginController.class

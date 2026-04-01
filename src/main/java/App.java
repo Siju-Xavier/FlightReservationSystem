@@ -12,7 +12,7 @@ public class App {
 
         // 3. Define a real endpoint to fetch flights from your MySQL database
         app.get("/api/flights", ctx -> {
-            ctx.json(flightController.getFlights());
+            ctx.json(flightController.retrieveFlights());
         });
 
         app.get("/api/hello", ctx -> {

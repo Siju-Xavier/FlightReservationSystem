@@ -4,6 +4,7 @@ import './index.css'
 function App() {
   const [flights, setFlights] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     fetch('http://localhost:8080/api/flights')
@@ -31,7 +32,12 @@ function App() {
         <section className='hero-section'>
           <h2>Find your next Destination</h2>
           <div className='search-bar glass'>
-            <input type='text' placeholder='Where to' />
+            <input 
+              type='text' 
+              placeholder='Where to? (e.g. Toronto)' 
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
             <button className='primary-btn'>Search</button>
           </div>
         </section>
@@ -40,7 +46,12 @@ function App() {
             <p className="status-text">Loading flights...</p>
           ) : flights.length > 0 ? (
             <div className="grid">
-              {flights.map(flight => (
+               {flights
+                .filter(flight => 
+                  flight.destination.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                  flight.origin.toLowerCase().includes(searchTerm.toLowerCase())
+                )
+                .map(flight => (
                 <div key={flight.flightNumber} className="flight-card glass">
                   <div className="card-header">
                     <span className="airline">{flight.airline?.airlineName || 'Airline'}</span>
