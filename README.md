@@ -44,6 +44,27 @@ From the root directory, run:
 ```
 _The server will start at `http://localhost:8080`._
 
+### 🎬 Demo Instructions
+
+1. Open a browser and navigate to `http://localhost:8080` to see the API base (you’ll get a simple “Bellow” response).
+2. To view the front‑end UI, start the React dev server (once the front‑end folder is ready):
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+   Then open `http://localhost:5173` (default Vite port).
+3. Use the **Checkout** page:
+   - Fill in the payment form (amount, card details, choose **debit** or **credit**).
+   - Click **Submit** → the app will call the `/api/checkout` endpoint you just implemented.
+   - A success message `{"message":"Payment successful"}` appears if everything is wired correctly.
+
+> **Tip:** You can test the API directly with `curl`:
+> ```bash
+> curl -X POST http://localhost:8080/api/checkout -H "Content-Type: application/json" -d '{"amount":10,"paymentMethod":"debit","cardNumber":"4111111111111111","cardHolderName":"John Doe","expiryDate":"12/25","cvv":"123"}'
+> ```
+
+
 ### 3. Run the Frontend (Coming Soon)
 ```bash
 cd frontend

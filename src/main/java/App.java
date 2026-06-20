@@ -1,4 +1,5 @@
 import io.javalin.Javalin;
+import io.javalin.http.staticfiles.Location;
 
 public class App {
     public static void main(String[] args){
@@ -31,6 +32,9 @@ public class App {
                 ctx.status(401).result("Invalid credentials");
             }
         });
+        // 6. Checkout endpoint
+        CheckoutController checkoutController = new CheckoutController();
+        app.post("/api/checkout", ctx -> checkoutController.handleCheckout(ctx));
 
         app.get("/api/hello", ctx -> {
             ctx.result("Bellow");

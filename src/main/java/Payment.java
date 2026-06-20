@@ -1,4 +1,50 @@
-import java.util.Scanner;
+import java.util.Objects;
+
+public class Payment {
+    private double amount;
+    private Customer customer;
+    private PaymentStrategy paymentStrategy;
+
+    private String cardNumber;
+    private String cardHolderName;
+    private String expiryDate;
+    private String cvv;
+
+    public Payment(double amount, Customer customer) {
+        this.amount = amount;
+        this.customer = customer;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setPaymentStrategy(PaymentStrategy strategy) {
+        this.paymentStrategy = strategy;
+    }
+
+    public void setCardDetails(String cardNumber, String cardHolderName, String expiryDate, String cvv) {
+        this.cardNumber = cardNumber;
+        this.cardHolderName = cardHolderName;
+        this.expiryDate = expiryDate;
+        this.cvv = cvv;
+    }
+
+    public void checkout() {
+        if (paymentStrategy == null) {
+            throw new IllegalStateException("Payment strategy not set. Set it before calling checkout.");
+        }
+        // Validate card details using PaymentController validators
+        PaymentController.isCardNumberValid(cardNumber);
+        PaymentController.isCardHolderNameValid(cardHolderName);
+        PaymentController.isExpiryDateValid(expiryDate);
+        PaymentController.isCvvValid(cvv);
+
+        // Process payment
+        paymentStrategy.pay(amount);
+    }
+}
+
 
 public class Payment {
     private double amount;
@@ -34,31 +80,9 @@ public class Payment {
 
     public void checkout() {
         if (paymentStrategy == null) {
-
-            int choice = 0;
-            while (true) {
-                System.out.println("Select payment method:");
-                System.out.println("1. Debit Card");
-                System.out.println("2. Credit Card");
-                System.out.print("Enter choice (1 or 2): ");
-                try {
-                    choice = Integer.parseInt(scanner.nextLine());
-                    if (choice == 1 || choice == 2) break;
-                    else System.out.println("Invalid choice. Enter 1 or 2.");
-                } catch (Exception e) {
-                    System.out.println("Invalid input. Enter 1 or 2.");
-                }
-            }
-
-            collectCardInfo();
-
-            if (choice == 1) {
-                paymentStrategy = new DebitCardPayment(cardNumber, cvv, expiryDate, cardHolderName);
-            } else {
-                paymentStrategy = new CreditCardPayment(cardNumber, cvv, expiryDate, cardHolderName);
-            }
+            throw new IllegalStateException("Payment strategy not set. Set it before calling checkout.");
         }
-
+        // Directly process payment – no interactive console input in web context
         paymentStrategy.pay(amount);
     }
 
