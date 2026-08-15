@@ -2,7 +2,6 @@
 
 A full-stack flight management system built for **ENSF 480** at the University of Calgary. This project transforms a legacy Java console application into a web application with a **Java (Javalin) backend** and a **React (Vite) frontend**.
 
-**Live demo:** [flight-reservation-system-five.vercel.app](https://flight-reservation-system-five.vercel.app)
 
 ## Screenshots
 
