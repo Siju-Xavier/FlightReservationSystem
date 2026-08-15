@@ -5,13 +5,9 @@ A full-stack flight management system built for **ENSF 480** at the University o
 
 ## Screenshots
 
-<!--
-Add screenshots below. Suggested shots: flight search/results page, booking/checkout flow, and admin/agent dashboard if applicable.
-Create a `/screenshots` folder in the repo root and drop your images there.
--->
 
-![Home / Flight Search](screenshots/home.png)
-![Checkout / Booking Flow](screenshots/checkout.png)
+
+<img width="1896" height="859" alt="Screenshot 2026-03-31 193945" src="https://github.com/user-attachments/assets/c98b1aa7-b067-4db5-9ad8-265e67bd38b8" />
 
 ---
 
